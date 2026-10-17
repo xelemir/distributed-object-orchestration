@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Go
+bin/
+obj/
+
+# Compiled dito binaries (deploy.sh build artifacts)
+/ditonode
+/ditoload
+/code/ditonode
+/code/ditoload
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/code/vendor/
+/code/data/
+
+# LaTeX / TeX Build Artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.log
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.run.xml
+*.synctex.gz
+*.pytxcode
+*.thm
+*.wrt
+*-SAVE-ERROR
+
+# IDE / Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Hide presentation and thesis document entirely
+/doc/
+/presentation/
